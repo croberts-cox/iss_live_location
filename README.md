@@ -1,3 +1,30 @@
+# International Space Station Tracker
+
+## Overview
+
+This project is a single page application that utilises the [Open Notify API](http://open-notify.org/) to present the current location of the International Space Station over the world. This is presented in the form of latitude and longitudinal coordinates along with the time stamp for that position. It also utilises the [Leaflet javascript library](https://leafletjs.com/) and [OpenStreetMap API](https://www.openstreetmap.org/copyright) to visually demonstrate the live location on a map.
+
+The app has been created using React.js and does not currently have a backend (purely front end developed).
+
+## Notes for improvement
+
+- [] Update layout of the site
+- [] Update background colour and design
+- [] Introduce auto update feature of the location
+- [] Update map to centre around the ISS location after each refresh
+- [] Introduce a list of people current in space (with a total)
+- [] Show the country and region that the ISS is currently passing over
+- [] Make text scalable/responsive with viewport size
+- [] Fix responsive issues with map container
+
+## Libraries used:
+
+- [Create React App](https://github.com/facebook/create-react-app)
+- [Leaflet](https://leafletjs.com/) and [React-Leaflet](https://react-leaflet.js.org/)
+- autoprefixer
+- gh-pages
+- postcss
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
